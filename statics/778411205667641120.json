@@ -1,7 +1,7 @@
 {
     "title": "【新手向】正则表达式的重要性",
     "photo": "/img/65358EC8159F979484DA5301AA599F1E.png",
-    "content": "<h1>前提交代</h1><p>一般情况下正则表达很反人类，直到碰到了这个......</p><p><img src=\"91bffcc6-7274-48a6-b797-85ae1040a091.png\"/ alt=\"problem\"></p><h1>后续</h1><p>解答方式：</p><p><code>return s.matches(\"^[+-]?(\\d+|\\d+\\.\\d*|\\.\\d+)([eE][+-]?\\d+)?$\");</code></p>",
+    "content": "<h1>前提交代</h1><p>一般情况下正则表达很反人类，直到碰到了这个......</p><p><img src=\"/img/91bffcc6-7274-48a6-b797-85ae1040a091.png\"/ alt=\"problem\"></p><h1>后续</h1><p>解答方式：</p><p><code>return s.matches(\"^[+-]?(\\d+|\\d+\\.\\d*|\\.\\d+)([eE][+-]?\\d+)?$\");</code></p>",
     "category": [
         "开发向"
     ],
