@@ -1,10 +1,10 @@
 {
     "title": "一种可能干掉开屏广告（摇一摇、扭一扭）的方法",
-    "content": "<p>直接进入正题。</p><h2>抓包</h2><p>通过在手机或者手机利用电脑的抓包软件（iOS可以使用stream，安卓很自由了不再赘述），我们可以分析出相关的有idfa和一些ad服务。</p><h2>结果</h2><p>主要host内容有：</p><p><code>tanx</code></p><p><code>xelements</code></p><p><code>miaozhen</code></p><p><code>im-x.jd.com</code></p><p><code>shuzilm</code></p><p><code>kuaishouzt</code></p><p><code>uyunad</code> P.S. 这是什么？</p><p><code>applovin</code> P.S. 不清楚，后续host文件包含这个</p><p><code>googlesyndication-cn</code> （老朋友了吧？）</code></p><p><code>volceapplog</code></p><p><code>iuni.telecome.cn</code></p><p><code>utoken.umeng.com</code> 这个不太清楚，但是直接访问主机名会跳转到淘宝</p><p><code>pv.sohu.com</code> 应该是搜狐给的广告？</p><h2>操作</h2><p>我使用的远程主机，在远程主机设置上述规则，并通过手机连接到远程主机网络。通过丢弃规则内容的数据包来抑制大部分的摇一摇广告。</p>",
+    "content": "<p>直接进入正题。</p><h2>抓包</h2><p>通过在手机或者手机利用电脑的抓包软件（iOS可以使用stream，安卓很自由了不再赘述），我们可以分析出相关的有idfa和一些ad服务。</p><h2>结果</h2><p>主要host内容有：</p><p><code>tanx</code></p><p><code>xelements</code></p><p><code>miaozhen</code></p><p><code>im-x.jd.com</code></p><p><code>shuzilm</code></p><p><code>kuaishouzt</code></p><p><code>uyunad</code> P.S. 这是什么？</p><p><code>applovin</code> P.S. 不清楚，后续host文件包含这个</p><p><code>googlesyndication-cn</code> （老朋友了吧？）</code></p><p><code>volceapplog</code></p><p><code>iuni.telecome.cn</code></p><p><code>utoken.umeng.com</code> 这个不太清楚，但是直接访问主机名会跳转到淘宝</p><p><code>pv.sohu.com</code> 应该是搜狐给的广告？</p><h2>操作</h2><p>我使用的远程主机，在远程主机设置上述规则，并通过手机连接到远程主机网络。通过丢弃规则内容的数据包来抑制大部分的摇一摇广告。</p><p>补充：其实有软件可以做到，或者说是早就做到了，这里暂时不说（因为我也忘记了，其实记得也不好。）</p>",
     "category": [
         "开发向"
     ],
-    "date": "2024/11/9 - 17:27",
+    "date": "2024/12/5 - 4:41",
     "another": "little fairy",
     "url": null
 }
